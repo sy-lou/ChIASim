@@ -47,7 +47,11 @@ This package contains the following two functions:
 
  - $\textbf{chiaSim}$: This function simulates a set of chromosomal interactions mediated by a specific protein, which can be regarded as the in silico counterparts of ChIA-PET or Hi-ChIP.
  - $\textbf{convertfmt}$: This function that allows user to siwtch the output data format between "base" and "BEDPE" without re-running the whole simulation program. The details on the formats are described below.
+<<<<<<< Updated upstream
 
+=======
+ 
+>>>>>>> Stashed changes
 # Installation
 ChIASim can be downloaded from GitHub: https://github.com/sy-lou/ChIASim as a zip file
 Then install using the zip file by install.packages("~/ChIASim-main.zip", repos = NULL, type = "win.binary") on Windows
@@ -59,8 +63,12 @@ ChIASim depends on other packages, i.e., parallel, BSgenome.Hsapiens.UCSC.hg19, 
   if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
   if (!requireNamespace("BSgenome.Hsapiens.UCSC.hg19", quietly = TRUE)) BiocManager::install("BSgenome.Hsapiens.UCSC.hg19")
   if (!requireNamespace("GenomicFeatures", quietly = TRUE)) BiocManager::install("GenomicFeatures")
+<<<<<<< Updated upstream
   
+=======
+>>>>>>> Stashed changes
   
+ 
 # ChIASim for data generation
 
 
