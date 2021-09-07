@@ -46,7 +46,7 @@ Step 5: Paired-end Sequencing: Reads of 50 bps from the two ends of the kept seg
 This package contains the following two functions:  
 
  - $\textbf{chiaSim}$: This function simulates a set of chromosomal interactions mediated by a specific protein, which can be regarded as the in silico counterparts of ChIA-PET or Hi-ChIP.
- - $\textbf{convertfmt}$: This function that allows user to siwtch the output data format between "base" and "BEDPE" without re-running the whole simulation program. The details on the formats are described below.
+ - $\textbf{convertfmt}$: This function allows user to siwtch the output data format between "base" and "BEDPE" without re-running the whole simulation program. The details on the formats are described below.
  
 # Installation
 ChIASim can be installed from GitHub and installed by devtools::install_git("https://github.com/sl-lin/ChIASim")
