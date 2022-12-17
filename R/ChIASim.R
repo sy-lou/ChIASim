@@ -140,6 +140,7 @@ else {
   
   print("No Restriction Enzyme pattern entered, use sonication")
   sonicutset <- list()
+  seqnames<-seqnames(Hsapiens)[1:23]
   for (i in 1: length(chr.length)){
     num.frag<-rpois(1,chr.length[i]/4000)
     sonicate.cut <- sample.int(chr.length[i], num.frag)
