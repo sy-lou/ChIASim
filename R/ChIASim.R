@@ -111,7 +111,7 @@ chiaSim <- function(TFBSfile="ERa", TSSfile=NULL, mean.frag.length = 250, n.cell
 
   print("Obtain cut loci")
   ###Get cut set of certain Restriction Enzyme, HindIII in this case####
- if (length(REp) != 0){
+ if (!is.null(REp)){
   hind3 <- DNAString(REp)
   hind3 <- DNAStringSet(hind3)
   names(hind3)<-1:length(hind3)
